@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_candidato_vagas"
+        android:icon="@drawable/ic_whatshot_black_24dp"
+        android:title="@string/candidato_vagas_title" />
+
+    <item
+        android:id="@+id/navigation_candidato_mentores"
+        android:icon="@drawable/ic_supervisor_account_black_24dp"
+        android:title="@string/candidato_mentores_title" />
+
+    <item
+        android:id="@+id/navigation_candidato_processos"
+        android:icon="@drawable/ic_toc_black_24dp"
+        android:title="@string/candidato_processos_title" />
+
+    <item
+        android:id="@+id/navigation_candidato_perfil"
+        android:icon="@drawable/ic_account_circle_black_24dp"
+        android:title="@string/candidato_perfil_title" />
+
+    <item
+        android:id="@+id/navigation_candidato_opcoes"
+        android:icon="@drawable/ic_settings_black_24dp"
+        android:title="@string/candidato_opcoes_title" />
+
+</menu>

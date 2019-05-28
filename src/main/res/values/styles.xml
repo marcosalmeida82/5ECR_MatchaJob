@@ -1,0 +1,53 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">@color/mj_black</item>
+        <item name="colorPrimaryDark">@color/mj_black</item>
+        <item name="colorAccent">@color/mj_yellow</item>
+        <item name="elevation">0dp</item>
+        <item name="colorControlNormal">@color/mj_white</item>
+        <item name="colorControlActivated">@color/mj_yellow</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:textViewStyle">@style/MJ_TextView</item>
+        <item name="android:editTextStyle">@style/MJ_EditText</item>
+    </style>
+
+    <style name="TextAppearance.AppCompat.Widget.ActionBar.Title" parent="@android:style/TextAppearance">
+        <item name="android:textSize">20dp</item>
+        <item name="android:textColor">@color/mj_white</item>
+    </style>
+
+    <style name="MJ_TextView" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/mj_white</item>
+    </style>
+
+    <style name="MJ_Layout">
+        <item name="android:background">@color/mj_black</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_columnSpan">10</item>
+    </style>
+
+    <style name="MJ_Label">
+        <item name="android:textColor">@color/mj_white</item>
+    </style>
+
+    <style name="MJ_EditText" parent="android:Widget.EditText">
+        <item name="android:layout_width">300dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/mj_white</item>
+        <item name="android:textColorHint">@color/mj_white</item>
+        <item name="android:paddingTop">18dp</item>
+        <item name="android:paddingBottom">18dp</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="MJ_Button">
+        <item name="android:background">@drawable/mj_button</item>
+        <item name="android:layout_width">300dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">4dp</item>
+    </style>
+
+</resources>

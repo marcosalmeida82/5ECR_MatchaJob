@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Candidato.CadastroCandidato"
+    style="@style/MJ_Layout"
+    >
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textSize="28sp"
+        android:textColor="@color/mj_yellow"
+        android:layout_marginBottom="16dp"
+        android:text="Cadastro"
+        />
+
+    <EditText
+        android:id="@+id/txtNome"
+        android:inputType="textPersonName"
+        android:hint="Nome completo"
+        style="@style/MJ_EditText"
+        />
+
+    <EditText
+        android:id="@+id/txtIdade"
+        android:inputType="number"
+        android:hint="Idade"
+        style="@style/MJ_EditText"
+        />
+
+    <EditText
+        android:id="@+id/txtCPF"
+        android:inputType="number"
+        android:hint="CPF"
+        style="@style/MJ_EditText"
+        />
+
+    <EditText
+        android:id="@+id/txtEmail"
+        android:hint="E-mail"
+        style="@style/MJ_EditText"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/txtPassword"
+        android:hint="Senha"
+        style="@style/MJ_EditText"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btnCadastrar"
+        style="@style/MJ_Button"
+        android:text="Cadastrar candidato" />
+
+</LinearLayout>

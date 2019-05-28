@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!--Botão pressionado-->
+    <item android:state_pressed="true" >
+        <shape android:shape="rectangle" android:tint="@color/mj_yellow_shadow">
+            <corners android:radius="3dip" />
+            <stroke android:width="1dip" android:color="#5e7974" />
+        </shape>
+    </item>
+
+    <!--Botão com focus-->
+    <item android:state_focused="true">
+        <shape android:shape="rectangle" android:tint="@color/mj_yellow">
+            <corners android:radius="3dip" />
+            <stroke android:width="1dip" android:color="#5e7974" />
+        </shape>
+    </item>
+
+    <!--Botão estático-->
+    <item >
+        <shape android:shape="rectangle" android:tint="@color/mj_yellow">
+            <corners android:radius="3dip" />
+            <stroke android:width="1dip" android:color="#5e7974" />
+        </shape>
+    </item>
+
+</selector>

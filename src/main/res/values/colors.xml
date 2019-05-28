@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--<color name="colorPrimary">#3F51B5</color>-->
+    <color name="colorPrimary">#363B46</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!--Estilos perosnalizados-->
+    <color name="mj_black">#363B46</color>
+    <color name="mj_white">#E4E1EE</color>
+    <color name="mj_yellow">#FCEA85</color>
+    <color name="mj_yellow_shadow">#E2D278</color>
+
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+    android:id="@+id/navigation_empresa_vagas"
+    android:icon="@drawable/ic_whatshot_black_24dp"
+    android:title="@string/empresa_vagas_title" />
+
+    <item
+        android:id="@+id/navigation_empresa_testes"
+        android:icon="@drawable/ic_toc_black_24dp"
+        android:title="@string/empresa_testes_title" />
+
+    <item
+        android:id="@+id/navigation_empresa_candidato"
+        android:icon="@drawable/ic_search_black_24dp"
+        android:title="@string/empresa_candidatos_title" />
+
+    <item
+        android:id="@+id/navigation_empresa_talentos"
+        android:icon="@drawable/ic_folder_special_black_24dp"
+        android:title="@string/empresa_talentos_title" />
+
+    <item
+        android:id="@+id/navigation_empresa_opcoes"
+        android:icon="@drawable/ic_settings_black_24dp"
+        android:title="@string/empresa_opcoes_title" />
+
+
+</menu>

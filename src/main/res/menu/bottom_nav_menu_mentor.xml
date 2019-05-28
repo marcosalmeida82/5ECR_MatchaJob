@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+       android:id="@+id/navigation_mentor_vagas"
+       android:icon="@drawable/ic_whatshot_black_24dp"
+       android:title="@string/mentor_vagas_title" />
+
+    <item
+        android:id="@+id/navigation_mentor_rede"
+        android:icon="@drawable/ic_supervisor_account_black_24dp"
+        android:title="@string/mentor_rede_title" />
+
+    <item
+        android:id="@+id/navigation_mentor_perfil"
+        android:icon="@drawable/ic_account_circle_black_24dp"
+        android:title="@string/mentor_perfil_title" />
+
+    <item
+        android:id="@+id/navigation_mentor_opcoes"
+        android:icon="@drawable/ic_settings_black_24dp"
+        android:title="@string/mentor_opcoes_title" />
+
+
+
+
+    <!--Vagas-->
+    <!--Minha rede-->
+    <!--Meu perfil-->
+    <!--Opcoes-->
+
+
+
+</menu>

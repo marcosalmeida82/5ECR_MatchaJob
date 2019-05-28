@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Match a Job</string>
+
+    <string name="title_activity_navigation_empresa">NavigationEmpresa</string>
+    <string name="title_activity_navigation_candidato">NavigationCandidato</string>
+    <string name="title_activity_navigation_mentor">NavigationMentor</string>
+
+    <!--EMPRESA-->
+    <string name="lbl_empresa">Empresa</string>
+    <string name="empresa_vagas_title">Vagas</string>\
+    <string name="empresa_testes_title">Meus testes</string>\
+    <string name="empresa_candidatos_title">Buscar candidatos</string>\
+    <string name="empresa_talentos_title">Banco de talentos</string>\
+    <string name="empresa_opcoes_title">Opções</string>\
+
+    <!--CANDIDATO-->
+    <string name="lbl_candidato">Candidato</string>
+    <string name="candidato_vagas_title">Vagas</string>
+    <string name="candidato_mentores_title">Meus mentores</string>
+    <string name="candidato_processos_title">Meus processos</string>
+    <string name="candidato_perfil_title">Meu perfil</string>
+    <string name="candidato_opcoes_title">Opções</string>
+
+    <!--MENTOR-->
+    <string name="lbl_mentor">Mentor</string>
+    <string name="mentor_vagas_title">Vagas</string>
+    <string name="mentor_rede_title">Minha rede</string>
+    <string name="mentor_perfil_title">Meu perfil</string>
+    <string name="mentor_opcoes_title">Opções</string>
+
+</resources>
